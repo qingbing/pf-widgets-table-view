@@ -1,0 +1,15 @@
+@charset "utf-8";
+#error-box{width:600px;height:360px;position:relative;left:50%;margin-top:40px;margin-bottom:100px;margin-left:-300px;}
+#error-desktop{position:absolute;left:4px;top:-72px;font-size:460px;color:#777777;}
+#error-content{position:absolute;left:37px;top:116px;width:428px;height:253px;}
+#error-left{width:168px;text-align:center;float:left;}
+#error-left .error-icon{font-size:140px;height:143px;line-height:143px;}
+#error-left .error-code{font-size:70px;height:80px;line-height:80px;}
+#error-right{width:260px;text-align:center;float:right;}
+#error-right .error-god{line-height:80px;font-size:30px;}
+#error-right .error-info{line-height:30px;font-size:16px;}
+ul#error-links{clear:both;padding:15px;}
+ul#error-links li{list-style:none;display:inline;float:left;padding:0 5px;font-size:14px;border-left:1px solid #337ab7;}
+ul#error-links li:first-child{border-left:none;}
+#error-tip{clear:both;height:30px;line-height:30px;text-align:center;}
+#error-second{font-size:20px;font-weight:bolder;}

@@ -1,0 +1,38 @@
+{
+    "name": "qingbing/pf-widgets-table-view",
+    "description": "table 渲染部件",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "php",
+        "table",
+        "table-view"
+    ],
+    "homepage": "http://www.phpcorner.net",
+    "authors": [
+        {
+            "name": "qingbing",
+            "email": "780042175@qq.com"
+        }
+    ],
+    "require": {
+        "qingbing/php-helper": ">=1.0, <2.0",
+        "qingbing/php-html": ">=1.0, <2.0",
+        "qingbing/php-render": ">=1.0, <2.0"
+    },
+    "require-dev": {
+        "qingbing/php-file-cache": ">=1.0, <2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TableViewSupports\\": "src/supports",
+            "Widgets\\": "src/widgets"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TestApp\\": "test/app",
+            "Controllers\\": "test/controllers"
+        }
+    }
+}
