@@ -1,6 +1,6 @@
 {
     "name": "qingbing/pf-widgets-table-view",
-    "description": "table 渲染部件",
+    "description": "渲染部件——表格、列表表格（分页）显示",
     "type": "library",
     "license": "MIT",
     "keywords": [
