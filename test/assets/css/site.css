@@ -1,3 +1,85 @@
-#header-container{height:65px;}
-.margin-top{margin-top:15px;}
-.margin-bottom{margin-bottom:15px;}
+#header-container{height:60px;}
+.main-left{padding-right:5px;}
+.main-right{padding-left:5px;}
+/* 页脚样式 */
+#footer{background-color:#2a2730;color:#99979c;padding:36px 0;margin-top:10px;}
+#footer a{color:#fff;}
+#footer ul.links{padding-left:2em;zoom:1;*zoom:1;}
+#footer ul.links:after{display:block;clear:both;font-size:0;line-height:0;content:'.';visibility:hidden;}
+#footer ul.links li{float:left;margin-top:10px;padding:0 10px;list-style:none;border-left:1px solid #fff;}
+#footer ul.links li:first-child{border-left:none;}
+#footer ul.links li a{}
+#footer ul.links li a:hover{}
+/* 首行缩进 */
+.text-indent{text-indent:2em;}
+/* U型盒子样式 */
+.u-box{background-color:#fff;border:1px solid #ddd;border-top:none;overflow:hidden;padding:0 10px 10px 10px;
+    -moz-border-radius:0 0 4px 4px;-webkit-border-radius:0 0 4px 4px;border-radius:0 0 4px 4px;
+    -webkit-box-shadow:0 1px 1px rgba(0,0,0,.05);box-shadow:0 1px 1px rgba(0,0,0,.05);
+}
+/* 博客文章列表 */
+.blog-list{padding:0;}
+.blog-list>li{list-style:none;border-top:3px solid #999;margin-bottom:10px;}
+.blog-list>li .blog-heading{color:#333;border-top-left-radius:3px;border-top-right-radius:3px;background-color:#f5f5f5;border-color:#ddd;}
+.blog-heading{font-size:16px;color:inherit;padding:5px 10px;}
+.blog-heading>.small,
+.blog-heading>.small>a,
+.blog-heading>a,
+.blog-heading>small,
+.blog-heading>small>a{color:inherit}
+.blog-list>li .blog-body{padding:5px;}
+.blog-list>li .blog-footer{text-align:right;}
+/* 图片填满宽度 */
+img.full-image{width:100%;}
+/* 单行多余文字用"..."代替 */
+.ellipsis{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+/* 云词 */
+ul.cloud_words{zoom:1;*zoom:1;padding:0;}
+ul.cloud_words:after{display:block;clear:both;font-size:0;line-height:0;content:'.';visibility:hidden;}
+ul.cloud_words li{display:inline-block;float:left;margin:5px 10px;word-break:keep-all;white-space:nowrap;line-height:30px;}
+ul.cloud_words li a{}
+ul.cloud_words li a:hover{}
+/* 博客列表标题 */
+.title{zoom:1;*zoom:1;background-color:#f5f5f5;line-height:40px;padding:0 20px;position:relative;}
+.title:after{display:block;clear:both;font-size:0;line-height:0;content:'.';visibility:hidden;}
+.title h3{float:left;font-size:16px;font-weight:bolder;color:#333333;}
+.title>a{float:right;margin-top:8px;color:#333333;}
+.title>ul{float:left;line-height:15px;}
+.title>ul li{display:inline-block;margin-top:20px;border-right:1px solid #333333;padding:0 10px;}
+.title>ul li:last-child{border-right:none;}
+.title>ul li a{color:#333333;font-size:14px;}
+.title>ul li a:hover{}
+/* 模块统计 */
+dl.page-topic{line-height:35px;}
+dl.page-topic dt{float:left;background-color:#f5f5f5;padding:0 5px;
+    -moz-border-radius:4px 4px 4px 4px;-webkit-border-radius:4px 4px 4px 4px;border-radius:4px 4px 4px 4px;
+}
+dl.page-topic dt a{color:#333333;}
+dl.page-topic dd{float:left;margin-left:10px;padding:0 10px;}
+dl.page-topic dd a{color:#333333;}
+/* 论坛-文章列表 */
+ul.topic-list{padding:0;}
+ul.topic-list li{zoom:1;*zoom:1;border-top:1px dashed #a1a1a1;padding:10px 0;list-style:none;}
+ul.topic-list li:after{display:block;clear:both;font-size:0;line-height:0;content:'.';visibility:hidden;}
+ul.topic-list li>a{}
+ul.topic-list li>a img{height:50px;width:50px;}
+ul.topic-list li dl{}
+ul.topic-list li dl dt{line-height:30px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+ul.topic-list li dl dd{color:#a1a1a1;line-height:20px;}
+ul.topic-list li dl dd a{color:#a1a1a1;}
+ul.topic-list li dl dd .user{margin-right:10px;}
+ul.topic-list li dl dd .browse-times{margin-right:10px;}
+ul.topic-list li dl dd .comment-times{}
+ul.topic-list li dl dd .time{float:right;}
+/* 模块菜单 */
+.module-left{border:1px solid #dddddd;
+    -moz-border-radius:4px 0 0 4px;-webkit-border-radius:4px 0 0 4px;border-radius:4px 0 0 4px;
+    -webkit-box-shadow:0 1px 1px rgba(0,0,0,.05);box-shadow:0 1px 1px rgba(0,0,0,.05);
+}
+.module-right{padding-left:10px;margin-left:-1px;border-left:1px solid #dddddd;}
+.module-left dl{position:relative;}
+.module-left dl dt{background-color:#e7e7e7;padding:10px 10px 5px;line-height:30px;}
+.module-left dl dd{}
+.module-left dl dd a{display:block;padding:5px 20px;line-height:25px;background-color:#f5f5f5;color:#777;}
+.module-left dl dd a.active{background-color:#ffffff;text-align:right;color:#2a2730;position:relative;border-right:1px solid #ffffff;margin-right:-1px;z-index:998;}
+.module-left dl dd a:hover{text-decoration:none;background-color:#ffffff;color:#2a2730;}
