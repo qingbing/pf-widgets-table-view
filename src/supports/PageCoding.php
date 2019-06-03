@@ -102,7 +102,7 @@ class PageCoding extends Base
      */
     public function paging()
     {
-        if ($this->totalPage == 1) {
+        if ($this->totalPage <= 1) {
             return '';
         }
         $lang = $this->lang;
