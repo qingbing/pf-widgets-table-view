@@ -56,7 +56,7 @@ class PageCoding extends Base
             throw new  Exception('没有指定总共显示的页数', 103000201);
         }
         $this->app = \PF::app();
-        $this->route = $this->app->getUrlManager()->parseUrl();
+        $this->route = $this->app->getController()->getAction()->getId();
         $this->params = $this->app->getRequest()->getParams();
 
         if (null === $this->curPage) {
@@ -75,7 +75,7 @@ class PageCoding extends Base
      */
     protected function createUrl($page = 1)
     {
-        return $this->app->getUrlManager()->createUrl($this->route, array_merge($this->params, [
+        return $this->app->getController()->createUrl($this->route, array_merge($this->params, [
             $this->pageVar => $page,
         ]));
     }
